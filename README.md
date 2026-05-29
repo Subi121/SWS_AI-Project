@@ -87,7 +87,15 @@ http://localhost:8080
 ```
 
 ---
+# Deployment
 
+## Frontend
+- Can be deployed on Vercel / Netlify
+
+## Backend
+- Can be deployed on Render / Railway / AWS
+
+(Currently runs locally)
 # API Endpoints
 
 ## Upload Files
