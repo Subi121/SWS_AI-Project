@@ -154,12 +154,6 @@ GET /api/files/download/{id}
 
 ---
 
-## 👩‍💻 Author
-
-**Subiksha S**
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
