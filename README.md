@@ -55,7 +55,7 @@ A full-stack document management web application inspired by a single-page clone
 ## 📂 Project Structure
 
 ```txt
-SWS_AI-DocumentHub/
+document-hub/
 ├── sws-frontend/
 │   ├── src/
 │   │   ├── components/
