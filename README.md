@@ -1,63 +1,84 @@
-# SWS AI Document Hub
+# 📂 Document Hub
 
-A full-stack file upload web application built using:
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-Backend-brightgreen)
+![H2 Database](https://img.shields.io/badge/H2-Database-blue)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-UI-38BDF8)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-* React + Vite
-* Tailwind CSS
-* Axios
-* Spring Boot
-* Spring Data JPA
-* H2 Database
+A full-stack document management web application inspired by a single-page clone of the **SWS AI website**, built using **React + Vite** for the frontend and **Spring Boot** for the backend. The application allows users to upload, manage, and download documents through a clean and modern interface.
 
 ---
 
-# Features
+## 🔗 Demo Video
 
-* Multi-file upload
+🎥 Demo Video: [Watch Demo](https://drive.google.com/file/d/1Sl8-DbHSUilUttR8TLu0Jj0tT04tR0VG/view?usp=sharing)
+
+---
+
+## ✨ Features
+
+* Multi-file upload support
 * Bulk upload simulation
-* File download support
-* REST API integration
-* Modern responsive UI
-* Frontend + Backend connected
+* File download functionality
+* REST API integration using Axios
+* Responsive modern UI with Tailwind CSS
+* Frontend and backend fully connected
+* Dynamic rendering with React state management
 
 ---
-# Demo Video
 
-📽️ Watch the project demo here:  
-https://drive.google.com/file/d/1Sl8-DbHSUilUttR8TLu0Jj0tT04tR0VG/view?usp=sharing
+## 🛠️ Tech Stack
 
----
-# Frontend Tech Stack
+### 🌐 Frontend
 
-* React
+* React.js
 * Vite
 * Tailwind CSS
 * Axios
 
----
-
-# Backend Tech Stack
+### ⚙️ Backend
 
 * Spring Boot
-* Maven
 * Spring Web
 * Spring Data JPA
+* Maven
 * Lombok
+
+### 🗄️ Database
+
 * H2 Database
 
 ---
 
-# Project Structure
+## 📂 Project Structure
 
 ```txt
-SWS_AI-Project
- ├── sws-frontend
- └── sws-backend
+SWS_AI-DocumentHub/
+├── sws-frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   └── package.json
+│
+├── sws-backend/
+│   └── src/main/java/
+│       ├── controller/
+│       ├── service/
+│       ├── entity/
+│       └── repository/
+│
+└── README.md
 ```
 
 ---
 
-# How To Run Frontend
+## ⚙️ Setup & Installation
+
+### 🖥️ 1. Frontend Setup
 
 ```bash
 cd sws-frontend
@@ -65,7 +86,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on:
+Frontend runs at:
 
 ```txt
 http://localhost:5173
@@ -73,38 +94,30 @@ http://localhost:5173
 
 ---
 
-# How To Run Backend
+### ⚙️ 2. Backend Setup
 
 ```bash
-cd sws-backend/backend
+cd sws-backend
 mvn spring-boot:run
 ```
 
-Backend runs on:
+Backend runs at:
 
 ```txt
 http://localhost:8080
 ```
 
 ---
-# Deployment
 
-## Frontend
-- Can be deployed on Vercel / Netlify
+## 🔌 API Endpoints
 
-## Backend
-- Can be deployed on Render / Railway / AWS
-
-(Currently runs locally)
-# API Endpoints
-
-## Upload Files
+### Upload Files
 
 ```http
 POST /api/files/upload
 ```
 
-## Download File
+### Download File
 
 ```http
 GET /api/files/download/{id}
@@ -112,6 +125,41 @@ GET /api/files/download/{id}
 
 ---
 
-# Author
+## 🚀 Deployment
 
-Subiksha
+### Frontend
+
+* Vercel
+* Netlify
+
+### Backend
+
+* Render
+* Railway
+* AWS
+
+(Currently runs locally)
+
+---
+
+## 🔭 Future Enhancements
+
+* JWT Authentication & Authorization
+* Drag-and-drop file upload
+* File type validation
+* Cloud storage integration
+* User dashboard and analytics
+* Docker containerization
+* Search and filter functionality
+
+---
+
+## 👩‍💻 Author
+
+**Subiksha S**
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
